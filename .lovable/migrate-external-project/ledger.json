@@ -1,0 +1,90 @@
+{
+  "source": "sufyan7735/swift-app-downloads-7426c037",
+  "commit": "cf07e8d",
+  "capabilities": [
+    {
+      "capability": "code",
+      "source": "TanStack Start ACTES application",
+      "outcome": "migrate",
+      "status": "in_progress",
+      "next_action": "Import source preserving target bootstrap"
+    },
+    {
+      "capability": "schema",
+      "source": "orders and notifications migrations",
+      "outcome": "migrate",
+      "status": "in_progress",
+      "next_action": "Apply schema to current Lovable Cloud"
+    },
+    {
+      "capability": "records",
+      "source": "Supabase record export absent",
+      "outcome": "migrate",
+      "status": "pending",
+      "next_action": "Provide JSON or CSV export of existing orders and notifications"
+    },
+    {
+      "capability": "auth identities",
+      "source": "Source uses phone/device registration; no auth export",
+      "outcome": "migrate",
+      "status": "pending",
+      "next_action": "Inspect account flows and preserve ownership with Cloud authentication"
+    },
+    {
+      "capability": "authorization",
+      "source": "Server admin password and order access tokens",
+      "outcome": "migrate",
+      "status": "in_progress",
+      "next_action": "Preserve server-controlled access and secure private order reads"
+    },
+    {
+      "capability": "uploaded file bytes",
+      "source": "Bundled images, catalogs, videos",
+      "outcome": "preserve",
+      "status": "in_progress",
+      "next_action": "Import referenced media"
+    },
+    {
+      "capability": "external providers",
+      "source": "In-app notifications and browser speech",
+      "outcome": "preserve",
+      "status": "in_progress",
+      "next_action": "Verify source services"
+    },
+    {
+      "capability": "public endpoints",
+      "source": "tts and wa-invoice",
+      "outcome": "preserve",
+      "status": "in_progress",
+      "next_action": "Inspect endpoints"
+    },
+    {
+      "capability": "callbacks/webhooks/schedules",
+      "source": "Not yet fully inspected",
+      "outcome": "inspect",
+      "status": "in_progress",
+      "next_action": "Confirm call sites"
+    },
+    {
+      "capability": "secrets",
+      "source": "Administrator access configuration",
+      "outcome": "preserve",
+      "status": "pending",
+      "next_action": "Configure administrator access securely"
+    },
+    {
+      "capability": "cutover",
+      "source": "Old published app remains unchanged",
+      "outcome": "preserve",
+      "status": "pending",
+      "next_action": "Publish new app when ready"
+    },
+    {
+      "capability": "verification",
+      "source": "Representative quote and order flows",
+      "outcome": "verify",
+      "status": "in_progress",
+      "next_action": "Exercise migrated interface"
+    }
+  ]
+}
